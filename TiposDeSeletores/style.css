@@ -1,0 +1,25 @@
+*{
+  margin-left: 20px;
+}
+.minha-classe{
+  background-color: #ffff00;
+  font-family: Verdana;  
+}
+
+p{
+  color: green;
+  font-family: Verdana;  
+}
+
+#titulo{
+  font-display: 24px;
+  color: #ff0000;
+  font-family: Verdana;  
+}
+
+.li{
+  color: #808080;
+  border: 1px solid;
+}
+
+
