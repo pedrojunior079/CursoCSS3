@@ -9,4 +9,4 @@
 :computer: Sintaxe e Seletores
 - :computer: Sintaxe CSS
 - :computer: Tipos de Seletores
-- :computer: Seletores Decendentes
+- :computer: Seletores Descendentes
