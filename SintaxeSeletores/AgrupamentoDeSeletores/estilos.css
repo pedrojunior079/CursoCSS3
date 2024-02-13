@@ -1,0 +1,11 @@
+div{
+  background-color: #FFFF00;
+}
+
+div p{
+  color: #FF0000;  
+}
+
+.minha-classe p{
+  color: #026a02;  
+}

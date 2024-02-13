@@ -1,0 +1,29 @@
+/* Estilos para o cabeçalho (h1) */
+h1{
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+/* Estilos para os paragrafos (p) */
+p{
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Comentario de seção separando as regras para links (a) */
+a{
+  text-decoration: none;
+  color: #0077b6;
+}
+
+/* Estilos para links quando estão em estado de foco (hover) */
+a:hover{
+  text-decoration: underline;
+  color: #005f8b;
+}
+
+
+
