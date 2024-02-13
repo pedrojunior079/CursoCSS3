@@ -6,7 +6,4 @@
 - :computer: Otimizando imagens e Display de Retina
 - :computer: Importando CSS no HTML
 
-:computer: Sintaxe e Seletores
-- :computer: Sintaxe CSS
-- :computer: Tipos de Seletores
-- :computer: Seletores Decendentes
+# Curso Basico de CSS 3
