@@ -1,0 +1,100 @@
+.box_cm{
+  color: black;
+  background-color:darkgray;
+  border-style: solid;
+  width: 1cm;
+  height: 1cm;
+  border-color: blue;
+  margin: 4px;  
+}
+
+.box_mm{
+  color: black;
+  background-color: darkgray;
+  border-style: solid;
+  width: 10mm;
+  height: 10mm;
+  border-color: blue;
+  margin: 4px;  
+}
+
+.box_in{
+  color: black;
+  background-color: darkgray;
+  border-style: solid;
+  width: 1in;
+  height: 1in;
+  border-color: blue;
+  margin: 4px;
+}
+
+.box_px{
+  color: black;
+  background-color: darkgray;
+  border-style: solid;
+  width: 24px;
+  height: 24px;
+  border-color: blue;
+  margin: 9px;  
+}
+
+.relative-box_em{
+  color: black;
+  background-color: darkgray;
+  border-style: solid;
+  font-size: 1em;
+  margin: 5px;  
+}
+
+.relative-box_rem{
+  color: black;
+  background-color: darkgray;
+  border-style: solid;
+  font-size: 2rem;
+  margin: 5px;  
+}
+
+.relative-box_lh{
+  color: black;
+  background-color: darkgray;
+  border-style: solid;
+  height: 1lh;
+  margin: 5px;  
+}
+
+.relative-box_vw{
+  color: black;
+  background-color: darkgray;
+  border-style: solid;
+  width: 10vw;
+  margin: 5px;  
+}
+
+.relative-box_vh{
+  color: black;
+  background-color: darkgray;
+  border-style: solid;
+  height: 20vh;
+  margin: 5px;  
+}
+
+.relative-box_vmin{
+  color: black;
+  background-color: darkgray;
+  border-style: solid;
+  width: 9vmin;
+  margin: 5px;  
+}
+
+.relative-box_vmax{
+  color: black;
+  background-color: darkgray;
+  border-style: solid;
+  width: 9vmax;
+  margin: 5px;  
+}
+
+
+
+
+

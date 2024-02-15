@@ -1,0 +1,27 @@
+.keyword{
+  color: red;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.unit{
+  color: #ff0000;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.primary-button{
+  background-color: primary;
+  color: white;
+  font-size: medium;
+  font-weight: bold;  
+}
+
+.secondary-button{
+  background-color: secondary;
+  color: black;
+  font-size: large;
+  font-weight: normal;  
+}
+
+
