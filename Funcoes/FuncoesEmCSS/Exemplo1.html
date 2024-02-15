@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Exemplo 1</title>
+    <style>
+      div{
+       margin: 5px;
+       border-style: solid;   
+      }
+
+      .calc{
+        width: calc(100% - 100); /* permite que você faça calculos */  
+      }
+
+      .rgb{
+        background-color: rgb(0, 255, 100); /* define uma cor em RGB */  
+      }
+
+      .rgba{
+        background-color: rgb(0, 255, 100, .3);
+        /* define uma cor em RGB com trasnsparencia, 
+        onde o ultimo parametro vai de 0.0 a 1.0, onde 1 é 
+        100% preenchido e 0 é totalmente transparente */   
+      }
+
+      .rotate{
+        transform: rotate(25deg); 
+        /* utilizada junto com a propriedade transform, rotaciona o elemento */   
+      }
+
+      .max{
+        width: max(40%, 400px); 
+        /* utilizada o maior valor, se 40% for maior que 400px 
+        usa o 40% caso contrario usa o 400px */ 
+      }
+
+      .min{
+        width: min(40%, 100px); /* utilizada o menor valor, oposto do max */
+      }
+      
+    </style>
+</head>
+<body>
+   <div class="calc">calc a rgb</div>
+   <div class="calc rgb">calc a rgb</div>
+   <div class="max rgba">max e rgba</div>
+   <br>
+   <div class="min rotate">min rotate</div> 
+</body>
+</html>
