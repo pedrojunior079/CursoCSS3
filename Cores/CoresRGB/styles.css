@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+}
+
+#red-box {
+    background-color: red;
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+#green-box {
+    background-color: green;
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+#blue-box {
+    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.8);
+}
+
