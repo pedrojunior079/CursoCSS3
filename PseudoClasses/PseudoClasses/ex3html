@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 2</title>
+    <style>
+       input[type="text"]:disabled{
+        background: #ccc;
+       }
+    </style>
+</head>
+<body>
+   <form action="#">
+     <fieldset id="shipping">
+        <legend>Endereço para envio</legend>
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="Endereço">
+        <input type="text" placeholder="CEP">
+     </fieldset>
+     <br>
+     <fieldset id="billing">
+        <legend>Endereço de Cobrança</legend>
+        <label for="billing-checkbox">Igual ao endereço de entrega:</label>
+        <input type="checkbox" id="billing-checkbox" checked>
+        <br>
+        <input type="text" placeholder="Nome" disabled>
+        <input type="text" placeholder="Endereço" disabled>
+        <input type="text" placeholder="CEP" disabled>
+     </fieldset>
+   </form>
+</body>
+</html>

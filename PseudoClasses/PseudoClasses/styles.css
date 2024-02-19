@@ -1,0 +1,16 @@
+/*aplica a cor vermelha ao passar o mouse sob o link.*/
+a:hover {
+    color: red;
+}
+ 
+/*aplica a cor vermelha para links ja visitados.*/
+a:visited {
+    color: red;
+}
+ 
+/* Estilizar elementos div vazios com cor de fundo específica usando :empty */
+div:empty {
+    background-color: lightgray;
+    height: 50px; /* Defina a altura desejada para destacar visualmente os elementos vazios */
+    margin: 5px; /* Adicione margem para separar os elementos */
+}
