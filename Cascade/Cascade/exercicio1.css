@@ -1,0 +1,12 @@
+.h1{
+  color: aqua;
+  padding: 20px;
+  font-size: 24px;
+  font-size: 12px;  /* este atributo sera aplicado */
+}
+
+.elemento{
+  color: blueviolet;  
+}
+
+

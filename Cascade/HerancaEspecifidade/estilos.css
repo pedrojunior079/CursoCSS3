@@ -1,0 +1,17 @@
+/* Aplicar estilos diferentes com base na classe das divs */
+
+/* Herdar a fonte Verdana para todas as seções de texto */
+body, p {
+    font-family: Verdana, sans-serif;
+}
+
+/* Estilos para a classe .importante */
+.importante p {
+    font-weight: bold;
+    color: red;
+}
+
+/* Estilos para a classe .informativa */
+.informativa p {
+    color: blue;
+}

@@ -1,0 +1,9 @@
+/* Aplicar cor de fundo azul para todos os elementos h1, exceto .destaque */
+h1:not(.destaque) {
+    background-color: blue;
+}
+
+/* Aplicar herança para a fonte Verdana em todos os elementos de texto */
+body, p, h1 {
+    font-family: Verdana, sans-serif;
+}
