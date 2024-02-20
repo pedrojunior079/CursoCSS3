@@ -1,0 +1,11 @@
+/* Estilizar elementos com a classe .inline-block-element */
+
+.inline-block-element {
+    display: inline-block;
+    width: 100px; /* Definir uma largura para os elementos inline-block */
+    height: 100px; /* Definir uma altura para os elementos inline-block */
+    background-color: lightblue;
+    margin: 5px; /* Adicionar margem entre os elementos */
+    text-align: center; /* Centralizar o texto dentro dos elementos */
+    line-height: 100px; /* Centralizar verticalmente o texto */
+}

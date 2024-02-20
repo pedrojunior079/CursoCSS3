@@ -1,0 +1,24 @@
+/* Definir alguns elementos como inline, block ou inline-block */
+
+/* Elemento block */
+p {
+    display: block;
+    border: 1px solid black; /* Adicionando uma borda para visualização */
+    padding: 10px; /* Adicionando algum espaçamento interno para visualização */
+    margin: 5px 0; /* Adicionando alguma margem para visualização */
+}
+
+/* Elemento inline */
+a, span {
+    display: inline;
+    margin-right: 10px; /* Adicionando alguma margem para visualização */
+}
+
+/* Elemento inline-block */
+div {
+    display: inline-block;
+    width: 100px; /* Definindo uma largura para visualização */
+    height: 50px; /* Definindo uma altura para visualização */
+    background-color: lightblue; /* Adicionando uma cor de fundo para visualização */
+    margin: 5px; /* Adicionando alguma margem para visualização */
+}
